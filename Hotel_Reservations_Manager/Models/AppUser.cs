@@ -15,12 +15,6 @@ namespace Hotel_Reservations_Manager.Models
             StartTime = DateTime.Now;
             this.Reservations = new List<Reservation>();
         }
-        [Required]
-        [MaxLength(10)]
-        public string Username { get; set; }
-
-        [Required]
-        public string Password { get; set; }
 
         [Required]
         [MaxLength(30)]
